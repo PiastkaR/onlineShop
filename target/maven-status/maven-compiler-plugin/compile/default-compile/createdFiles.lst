@@ -1,0 +1,17 @@
+com\queue\your\patient\offer\OfferRepository.class
+com\queue\your\patient\cart\InMemoryCartRepository.class
+com\queue\your\patient\cart\Cart.class
+com\queue\your\patient\offer\WebOffersFilter.class
+com\queue\your\patient\cart\DieteticSet.class
+com\queue\your\patient\offer\InMemoryTemplateOfferRepository.class
+com\queue\your\patient\infrastructure\Profiles.class
+com\queue\your\patient\cart\CartRepository.class
+com\queue\your\patient\offer\OfferService.class
+com\queue\your\patient\offer\OfferConfiguration.class
+com\queue\your\patient\Application.class
+com\queue\your\patient\cart\CartConfiguration.class
+com\queue\your\patient\offer\AvailabilityOffersFilter.class
+com\queue\your\patient\offer\Channel.class
+com\queue\your\patient\offer\AvailabilityOffersFilterFactory.class
+com\queue\your\patient\offer\Offer.class
+com\queue\your\patient\offer\AvailabilityOffersFilter$AcceptAllOffersFilter.class
