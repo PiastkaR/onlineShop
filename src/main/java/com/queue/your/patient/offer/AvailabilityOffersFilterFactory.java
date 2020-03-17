@@ -1,12 +1,14 @@
 package com.queue.your.patient.offer;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 import static com.queue.your.patient.offer.AvailabilityOffersFilter.ACCEPT_ALL;
 
 @RequiredArgsConstructor
+@Component
 public class AvailabilityOffersFilterFactory {
     private final List<AvailabilityOffersFilter> filters;
 

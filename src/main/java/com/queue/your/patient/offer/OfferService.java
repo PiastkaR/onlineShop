@@ -1,12 +1,14 @@
 package com.queue.your.patient.offer;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 import static java.util.stream.Collectors.toSet;
 
 @RequiredArgsConstructor
+@Service
 public class OfferService {
 
     private final AvailabilityOffersFilterFactory availabilityOffersFilterFactory;

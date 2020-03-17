@@ -1,6 +1,7 @@
 package com.queue.your.patient.offer;
 
 import lombok.*;
+import org.springframework.stereotype.Component;
 
 import static lombok.AccessLevel.PRIVATE;
 
@@ -9,6 +10,7 @@ import static lombok.AccessLevel.PRIVATE;
 @ToString
 @NoArgsConstructor(access = PRIVATE)
 @AllArgsConstructor
+@Component
 public class Offer {
 
     private long id;

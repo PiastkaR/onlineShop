@@ -1,7 +1,10 @@
 package com.queue.your.patient.offer;
 
+import org.springframework.stereotype.Repository;
+
 import java.util.*;
 
+@Repository
 public class InMemoryTemplateOfferRepository implements  OfferRepository{
 
     private final Map<Long, Offer> offerDb = new HashMap<>();

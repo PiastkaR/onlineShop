@@ -1,0 +1,43 @@
+### Intellij ###
+*.iml
+*.ipr
+*.iws
+.idea*
+*.iws
+/out/
+.idea_modules/
+modules.xml
+
+#Jira Plugin
+atlassian-ide-plugin.xml
+
+#Sererauth dir
+/server/
+
+#JVM crash logs
+hs_err_pid*
+
+target
+build
+.gradle
+
+# Package files #
+*.jar
+*.war
+*.ear
+
+# Eclipse - Core
+.project
+
+#Eclipse
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.~.nib
+local.properties
+.settings/
+.loadpah
+.recommenders
