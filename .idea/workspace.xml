@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66c42c04-22d9-40c9-ab48-ab03c678df23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CustomerCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CustomerCartComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/Cart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/Cart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/DieteticSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/DieteticSet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/InMemoryCartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/InMemoryCartRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/AvailabilityOffersFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/AvailabilityOffersFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/AvailabilityOffersFilterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/AvailabilityOffersFilterFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/Channel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/Channel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/InMemoryTemplateOfferRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/InMemoryTemplateOfferRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/Offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/OfferRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/OfferRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/OfferConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/OfferConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/OfferService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/OfferService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/queue/your/patient/ApplicationRunningTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/queue/your/patient/ApplicationRunningTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/offer/OfferServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/offer/OfferServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +56,12 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\piast\IdeaProjects\onlineShop\src\main\resources" />
+      <recent name="C:\Users\piast\IdeaProjects\onlineShop" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="ApplicationRunningTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -95,6 +104,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584027224381" />
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1584635304750">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584635304750" />
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1584632717307">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1584632717307" />
     <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1584028501343">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -111,18 +128,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584028501343" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1584277020418">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1584476397971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584277020418" />
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584277178499">
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584476397971" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1584629883999">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584277178499" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584629883999" />
     <state x="462" y="10" width="611" height="804" key="find.popup" timestamp="1584277860412">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="462" y="10" width="611" height="804" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1584277860412" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1584637232606">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584637232606" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584277929812">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -22,7 +22,7 @@ public class OfferServiceTest extends IntegrationTest {
         final Offer offer = new Offer(1, 2500, "M");
         offerRepository.save(offer);
         //when
-        final Set<Offer> offers = offerService.offerrsFor(Channel.WEB);
+        final Set<Offer> offers = offerService.offersFor(Channel.WEB);
         //then
         assertThat(offers).contains(offer);
     }

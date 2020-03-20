@@ -1,11 +1,8 @@
 package com.queue.your.patient.offer;
 
-import org.springframework.stereotype.Repository;
-
 import java.util.*;
 
-@Repository
-public class InMemoryTemplateOfferRepository implements  OfferRepository{
+class InMemoryTemplateOfferRepository implements OfferRepository {
 
     private final Map<Long, Offer> offerDb = new HashMap<>();
 
@@ -16,10 +13,13 @@ public class InMemoryTemplateOfferRepository implements  OfferRepository{
     }
 
     @Override
-    public List<Offer> findAll() {return new ArrayList<>(offerDb.values());
+    public List<Offer> findAll() {
+        return new ArrayList<>(offerDb.values());
     }
 
     @Override
-    public Optional<Offer> findById(long id) { return Optional.ofNullable(offerDb.get(id)); }
+    public Optional<Offer> findById(long id) {
+        return Optional.ofNullable(offerDb.get(id));
+    }
 
 }
