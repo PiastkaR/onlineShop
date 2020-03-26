@@ -54,3 +54,7 @@ k
 ;src/main/java/com/queue/your/patient/cart/CartResource.java,f\4\f401d3d9d202b9c10bba8ae7a7544b2b337c8309
 t
 Dsrc/main/java/com/queue/your/patient/cart/CustomerCartComponent.java,6\8\682399d4f12195774a4d32a05bf88a323c02dac4
+t
+Dsrc/test/java/com/queue/your/patient/cart/CustomerCartScopeTest.java,4\2\424c3f46d9462fe04babd9f13a35e0a446d4eb49
+q
+Asrc/test/java/com/queue/your/patient/cart/CartRepositoryTest.java,2\5\257224cf328c7ef8ca0cefab2bfbb4e191ff8395

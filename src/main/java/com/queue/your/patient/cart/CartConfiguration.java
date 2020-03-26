@@ -1,5 +1,6 @@
 package com.queue.your.patient.cart;
 
+import com.queue.your.patient.offer.OfferService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -12,7 +13,12 @@ public class CartConfiguration {
     }
 
     @Bean
-    public CustomerCart customerCartcomponent() {
-        return new CustomerCartcomponent();
+    public CustomerCartComponent customerCart(OfferService offerService) {
+        return new CustomerCartComponent(offerService);
+    }
+
+    @Bean
+    public CartService cartService(CustomerCart customerCart) {
+        return new CartService(customerCart, cartRepository());
     }
 }
