@@ -9,11 +9,11 @@ import static java.lang.String.format;
 
 @RequiredArgsConstructor
 public class ManagerNotificatior {
-    private MailSender mailSender;
+    private final MailSender mailSender;
 
     @EventListener
     public void onOrderStoredEvent(OrderStoredEvent event) {
-        mailSender.send("mailFromDb@", format("Please approve order #%s", event.getCartId()));
+        mailSender.send("mailFromDb@sth.com", format("Please approve order #%s", event.getCartId()));
     }
 
 }

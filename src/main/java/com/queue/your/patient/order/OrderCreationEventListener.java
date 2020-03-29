@@ -15,7 +15,7 @@ public class OrderCreationEventListener {
     private final CartService cartService;
 
     @EventListener
-    void onOrderedStoredEvent(OrderStoredEvent orderStoredEvent) {
+    public void onOrderedStoredEvent(OrderStoredEvent orderStoredEvent) {
         LOGGER.info("Order creation for cart [{}]", orderStoredEvent);
         final Cart cart = cartService.getById(orderStoredEvent.getCartId());
         orderService.create(cart);

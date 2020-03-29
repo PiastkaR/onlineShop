@@ -2,20 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66c42c04-22d9-40c9-ab48-ab03c678df23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/OrderStoredEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/infrastructure/InfrastructureConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/infrastructure/MailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/InMemoryOrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/ManagerNotificatior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderCreationEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/infrastructure/quartz/AutowireCapableBeanJobFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/infrastructure/quartz/QuartzProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/infrastructure/quartz/SchedulingConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderPaidListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/discount/DeliveryDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/discount/DiscountConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/discount/DiscountPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/discount/Discounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/discount/LoyaltyDiscounts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/InMemoryPaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/InvoiceGeneratorListiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/PaymentConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/PaymentNotificationJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/PaymentNotificatior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/PaymentRegisteredEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/PaymentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/cart/CartServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/cart/payment/InvoiceGenerationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/cart/payment/PaymentNotificationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/cart/payment/PaymentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/order/ManagerNotificatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/order/OrderCreationEventListiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/order/discount/DiscountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/InMemoryOrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/InMemoryOrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/ManagerNotificatior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/ManagerNotificatior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderCreationEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderCreationEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicaiton.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicaiton.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/queue/your/patient/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/queue/your/patient/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/queue/your/patient/cart/CartConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/queue/your/patient/cart/CartConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/queue/your/patient/cart/CartRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/queue/your/patient/cart/CartRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/onlineQueueToDoctor-0.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/onlineQueueToDoctor-0.0.1.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.queue.your.patient.ApplicationRunningTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.queue.your.patient.ApplicationRunningTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.queue.your.patient.ApplicationRunningTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.queue.your.patient.ApplicationRunningTest.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +100,7 @@
       <recent name="C:\Users\piast\IdeaProjects\onlineShop" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CustomerCartScopeTest.shouldProperlyHandleTwoSessionCart">
+  <component name="RunManager" selected="JUnit.DiscountTest.shouldContainLoyaltyDiscountBean">
     <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_241\jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -103,7 +140,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CartRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CartServiceTest.shouldPublishEvent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="onlineShop" />
       <extension name="coverage">
         <pattern>
@@ -112,23 +149,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.queue.your.patient.cart" />
-      <option name="MAIN_CLASS_NAME" value="com.queue.your.patient.cart.CartRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CartRepositoryTest.shouldFindCartWithGivenId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="onlineShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.queue.your.patient.cart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.queue.your.patient.cart" />
-      <option name="MAIN_CLASS_NAME" value="com.queue.your.patient.cart.CartRepositoryTest" />
-      <option name="METHOD_NAME" value="shouldFindCartWithGivenId" />
+      <option name="MAIN_CLASS_NAME" value="com.queue.your.patient.cart.CartServiceTest" />
+      <option name="METHOD_NAME" value="shouldPublishEvent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,21 +187,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DiscountTest.shouldContainLoyaltyDiscountBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="onlineShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.queue.your.patient.order.discount.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.queue.your.patient.order.discount" />
+      <option name="MAIN_CLASS_NAME" value="com.queue.your.patient.order.discount.DiscountTest" />
+      <option name="METHOD_NAME" value="shouldContainLoyaltyDiscountBean" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Application" />
-      <item itemvalue="JUnit.CartRepositoryTest" />
-      <item itemvalue="JUnit.CartRepositoryTest.shouldFindCartWithGivenId" />
       <item itemvalue="JUnit.CustomerCartScopeTest" />
       <item itemvalue="JUnit.CartRepositoryTest and 3 more" />
       <item itemvalue="JUnit.CustomerCartScopeTest.shouldProperlyHandleTwoSessionCart" />
+      <item itemvalue="JUnit.CartServiceTest.shouldPublishEvent" />
+      <item itemvalue="JUnit.DiscountTest.shouldContainLoyaltyDiscountBean" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DiscountTest.shouldContainLoyaltyDiscountBean" />
+        <item itemvalue="JUnit.CartServiceTest.shouldPublishEvent" />
         <item itemvalue="JUnit.CustomerCartScopeTest.shouldProperlyHandleTwoSessionCart" />
         <item itemvalue="JUnit.CartRepositoryTest and 3 more" />
         <item itemvalue="JUnit.CustomerCartScopeTest" />
-        <item itemvalue="JUnit.CartRepositoryTest" />
-        <item itemvalue="JUnit.CartRepositoryTest.shouldFindCartWithGivenId" />
       </list>
     </recent_temporary>
   </component>
@@ -221,58 +259,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1585242018001" />
-    <state width="1493" height="310" key="GridCell.Tab.0.bottom" timestamp="1585237857912">
+    <state width="1493" height="480" key="GridCell.Tab.0.bottom" timestamp="1585510770863">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585237857912" />
-    <state width="1493" height="310" key="GridCell.Tab.0.center" timestamp="1585237857912">
+    <state width="1493" height="480" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585510770863" />
+    <state width="1493" height="480" key="GridCell.Tab.0.center" timestamp="1585510770862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585237857912" />
-    <state width="1493" height="310" key="GridCell.Tab.0.left" timestamp="1585237857912">
+    <state width="1493" height="480" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585510770862" />
+    <state width="1493" height="480" key="GridCell.Tab.0.left" timestamp="1585510770862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585237857912" />
-    <state width="1493" height="310" key="GridCell.Tab.0.right" timestamp="1585237857912">
+    <state width="1493" height="480" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585510770862" />
+    <state width="1493" height="480" key="GridCell.Tab.0.right" timestamp="1585510770862">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585237857912" />
-    <state width="1493" height="310" key="GridCell.Tab.1.bottom" timestamp="1585237857913">
+    <state width="1493" height="480" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585510770862" />
+    <state width="1493" height="310" key="GridCell.Tab.1.bottom" timestamp="1585245488390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585237857913" />
-    <state width="1493" height="310" key="GridCell.Tab.1.center" timestamp="1585237857913">
+    <state width="1493" height="310" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585245488390" />
+    <state width="1493" height="310" key="GridCell.Tab.1.center" timestamp="1585245488390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585237857913" />
-    <state width="1493" height="310" key="GridCell.Tab.1.left" timestamp="1585237857913">
+    <state width="1493" height="310" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585245488390" />
+    <state width="1493" height="310" key="GridCell.Tab.1.left" timestamp="1585245488390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585237857913" />
-    <state width="1493" height="310" key="GridCell.Tab.1.right" timestamp="1585237857913">
+    <state width="1493" height="310" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585245488390" />
+    <state width="1493" height="310" key="GridCell.Tab.1.right" timestamp="1585245488390">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="310" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585237857913" />
+    <state width="1493" height="310" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585245488390" />
     <state x="277" y="0" key="SettingsEditor" timestamp="1584476397971">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584476397971" />
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585209537344">
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585504483116">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585209537344" />
-    <state x="262" y="22" width="1014" height="686" key="find.popup" timestamp="1585240215601">
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585504483116" />
+    <state x="262" y="22" width="1014" height="686" key="find.popup" timestamp="1585507479621">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="262" y="22" width="1014" height="686" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585240215601" />
+    <state x="262" y="22" width="1014" height="686" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585507479621" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1584692448806">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584692448806" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584277929812">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585243745806">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584277929812" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585243745806" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

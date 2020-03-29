@@ -1,11 +1,9 @@
 package com.queue.your.patient.cart;
 
-import org.springframework.context.annotation.Scope;
-
 import java.util.List;
 import java.util.Optional;
 
-@Scope("singleton")
+//@Scope("singleton")
 public interface CartRepository {
 
     Cart save(Cart offer);
