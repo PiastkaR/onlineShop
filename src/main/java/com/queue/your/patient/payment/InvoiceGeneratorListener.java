@@ -9,9 +9,9 @@ import org.springframework.context.event.EventListener;
 import static java.lang.String.format;
 
 @RequiredArgsConstructor
-public class InvoiceGeneratorListiner {
+public class InvoiceGeneratorListener {
     private final MailSender mailSender;
-    private static final Logger LOGGER = LoggerFactory.getLogger(InvoiceGeneratorListiner.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(InvoiceGeneratorListener.class);
 
     @EventListener
     public void onPaymentRegisteredEvent(PaymentRegisteredEvent event){

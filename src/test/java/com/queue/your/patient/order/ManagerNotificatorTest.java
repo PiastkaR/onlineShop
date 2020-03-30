@@ -23,7 +23,7 @@ public class ManagerNotificatorTest extends IntegrationTest {
     //only to check if registered
 
     @Autowired
-    private ManagerNotificatior managerNotificatior;
+    private ManagerNotificator managerNotificator;
     @Autowired
     private ApplicationEventPublisher eventPublisher;
 

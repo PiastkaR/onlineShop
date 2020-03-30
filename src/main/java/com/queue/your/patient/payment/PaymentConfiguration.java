@@ -6,9 +6,12 @@ import org.quartz.JobBuilder;
 import org.quartz.JobDetail;
 import org.quartz.Trigger;
 import org.quartz.TriggerBuilder;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 public class PaymentConfiguration {
 
     @Bean
@@ -22,8 +25,8 @@ public class PaymentConfiguration {
     }
 
     @Bean
-    InvoiceGeneratorListiner invoiceGeneratorListiner(MailSender mailSender){
-        return new InvoiceGeneratorListiner(mailSender);
+    InvoiceGeneratorListener invoiceGeneratorListener(MailSender mailSender){
+        return new InvoiceGeneratorListener(mailSender);
     }
 
     @Bean
@@ -42,7 +45,7 @@ public class PaymentConfiguration {
     }
 
     @Bean
-    Trigger paymentNotificationTrigger(/*@Value("${onlineShop.payment.notification.not-paid.crone:0/1 * * * * ?}") String cronePattern*/) {
+    Trigger paymentNotificationTrigger(@Value("${onlineShop.payment.notification.not-paid.crone:0/1 * * * * ?}") String cronePattern) {
         return TriggerBuilder.newTrigger()
                 .forJob(paymentNotificationJobDetail())
                 .withIdentity("Payment_Notification_Trigger")

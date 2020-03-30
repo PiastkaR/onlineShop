@@ -4,7 +4,7 @@ import com.queue.your.patient.IntegrationTest;
 import com.queue.your.patient.infrastructure.MailSender;
 import com.queue.your.patient.order.Order;
 import com.queue.your.patient.order.OrderRepository;
-import com.queue.your.patient.payment.InvoiceGeneratorListiner;
+import com.queue.your.patient.payment.InvoiceGeneratorListener;
 import com.queue.your.patient.payment.PaymentRegisteredEvent;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,7 +16,7 @@ import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
-public class InvoiceGenerationTest extends IntegrationTest {
+public class InvoiceGenerationListenerTest extends IntegrationTest {
     @MockBean
     private MailSender mailSender;
     @MockBean
@@ -24,7 +24,7 @@ public class InvoiceGenerationTest extends IntegrationTest {
     //only to check registration
 
     @Autowired
-    private InvoiceGeneratorListiner listiner;
+    private InvoiceGeneratorListener listener;
 
     @Autowired
     private ApplicationEventPublisher publisher;

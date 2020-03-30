@@ -8,11 +8,11 @@ import org.springframework.context.event.EventListener;
 import static java.lang.String.format;
 
 @RequiredArgsConstructor
-public class ManagerNotificatior {
+public class ManagerNotificator {
     private final MailSender mailSender;
 
     @EventListener
-    public void onOrderStoredEvent(OrderStoredEvent event) {
+    void onOrderStoredEvent(OrderStoredEvent event) {
         mailSender.send("mailFromDb@sth.com", format("Please approve order #%s", event.getCartId()));
     }
 

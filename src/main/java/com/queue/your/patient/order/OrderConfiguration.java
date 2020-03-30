@@ -2,6 +2,7 @@ package com.queue.your.patient.order;
 
 import com.queue.your.patient.cart.CartService;
 import com.queue.your.patient.infrastructure.MailSender;
+import com.queue.your.patient.order.discount.DiscountPolicy;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -14,22 +15,22 @@ public class OrderConfiguration {
     }
 
     @Bean
-    OrderService orderService() {
-        return new OrderService(orderRepository());
+    OrderService orderService(DiscountPolicy discountPolicy) {
+        return new OrderService(orderRepository(), discountPolicy);
     }
 
     @Bean
-    OrderCreationEventListener orderConfigurationEventListener(CartService cartService) {
-        return new OrderCreationEventListener(orderService(), cartService);
+    OrderCreationEventListener orderCreationEventListener(OrderService orderService, CartService cartService) {
+        return new OrderCreationEventListener(orderService, cartService);
     }
 
     @Bean
-    ManagerNotificatior managerNotificatior(MailSender mailSender) {
-        return new ManagerNotificatior(mailSender);
+    ManagerNotificator managerNotificator(MailSender mailSender) {
+        return new ManagerNotificator(mailSender);
     }
 
     @Bean
-    OrderPaidListener orderPaidListiner() {
+    OrderPaidListener orderPaidListener() {
         return new OrderPaidListener(orderRepository());
     }
 }

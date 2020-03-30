@@ -11,14 +11,14 @@ import org.springframework.context.ApplicationEventPublisher;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.verify;
 
-public class OrderCreationEventListiner extends IntegrationTest {
+public class OrderCreationEventListenerTest extends IntegrationTest {
     @MockBean
     private CartService cartService;
     @MockBean
     private OrderService orderService;
     //only to check if registered
     @Autowired
-    private OrderCreationEventListiner listiner;
+    private OrderCreationEventListener listener;
     @Autowired
     private ApplicationEventPublisher eventPublisher;
 

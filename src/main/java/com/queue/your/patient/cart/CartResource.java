@@ -1,6 +1,5 @@
 package com.queue.your.patient.cart;
 
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import lombok.RequiredArgsConstructor;
 import lombok.Value;
 import org.slf4j.Logger;
@@ -32,6 +31,16 @@ public class CartResource {
         LOGGER.info("[{}]", cart);
         return ResponseEntity.ok(new IdReference(cart.getId()));
     }
+
+    // warto dodawac na poczatku private final MandatoryKeyRequestValidator validato = new MKV(
+    // required("sss"),
+    //required("name"));
+
+//    @ExceptionHandler
+//    ResponseEntity handeValidation(final ValidationException exception) {
+//        LOGGER.error("Request validaiton failed" , exception);
+//        return new ResponseEntity(exception.getMessage(), HttpStatus.CONFLICT);
+//    }
 
     @Value
     static class IdReference {
