@@ -3,20 +3,21 @@ package com.queue.your.patient.order;
 import com.queue.your.patient.cart.CartService;
 import com.queue.your.patient.infrastructure.MailSender;
 import com.queue.your.patient.order.discount.DiscountPolicy;
+import org.mockito.internal.matchers.Or;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class OrderConfiguration {
-
+/*
     @Bean
     OrderRepository orderRepository() {
         return new InMemoryOrderRepository();
     }
-
+*/
     @Bean
-    OrderService orderService(DiscountPolicy discountPolicy) {
-        return new OrderService(orderRepository(), discountPolicy);
+    OrderService orderService(DiscountPolicy discountPolicy, OrderRepository orderRepository) {
+        return new OrderService(orderRepository, discountPolicy);
     }
 
     @Bean
@@ -30,7 +31,7 @@ public class OrderConfiguration {
     }
 
     @Bean
-    OrderPaidListener orderPaidListener() {
-        return new OrderPaidListener(orderRepository());
+    OrderPaidListener orderPaidListener(OrderRepository orderRepository) {
+        return new OrderPaidListener(orderRepository);
     }
 }

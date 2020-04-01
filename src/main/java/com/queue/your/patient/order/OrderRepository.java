@@ -1,13 +1,15 @@
 package com.queue.your.patient.order;
 
-import org.mockito.internal.matchers.Or;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Optional;
 
-public interface OrderRepository {
-
+@Repository
+public interface OrderRepository extends JpaRepository<Order, String> {
+/*
     Order save(Order order);
 
     List<Order> findAll();
@@ -17,4 +19,12 @@ public interface OrderRepository {
     List<Order> findOlderThan(LocalDateTime boarder);
 
     Order findByCartId(String id);
+
+ */
+
+    List<Order> findPaidFalseAndOrdered(LocalDateTime boarder);
+
+    default Order findByCartId(String id) {
+        return findById(id).orElse(null);
+    }
 }

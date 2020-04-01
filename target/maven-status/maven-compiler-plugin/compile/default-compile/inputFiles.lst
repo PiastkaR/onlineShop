@@ -4,6 +4,7 @@ C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\paym
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\infrastructure\quartz\AutowireCapableBeanJobFactory.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\order\discount\Discounts.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\aop\TimingAspect.java
+C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\OfferRepresentation.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\infrastructure\Profiles.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\infrastructure\quartz\QuartzProperties.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\OfferService.java
@@ -23,6 +24,7 @@ C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\orde
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\cart\CartService.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\Offer.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\OfferConfiguration.java
+C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\RepresentationToOfferConverter.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\cart\InMemoryCartRepository.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\payment\PaymentService.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\aop\Timed.java
@@ -36,6 +38,7 @@ C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\orde
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\Application.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\order\ManagerNotificator.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\OfferRepository.java
+C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\JdbcTemplateOfferRepository.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\payment\InMemoryPaymentRepository.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\order\Order.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\cart\CustomerCartComponent.java
@@ -44,6 +47,7 @@ C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\aop\
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\cart\Cart.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\order\OrderConfiguration.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\infrastructure\MailSender.java
+C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\OfferToRepresentationConverter.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\order\OrderItem.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\AvailabilityOffersFilter.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\InMemoryTemplateOfferRepository.java

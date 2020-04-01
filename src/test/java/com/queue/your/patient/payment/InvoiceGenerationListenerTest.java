@@ -1,11 +1,9 @@
-package com.queue.your.patient.cart.payment;
+package com.queue.your.patient.payment;
 
 import com.queue.your.patient.IntegrationTest;
 import com.queue.your.patient.infrastructure.MailSender;
 import com.queue.your.patient.order.Order;
 import com.queue.your.patient.order.OrderRepository;
-import com.queue.your.patient.payment.InvoiceGeneratorListener;
-import com.queue.your.patient.payment.PaymentRegisteredEvent;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.mock.mockito.MockBean;

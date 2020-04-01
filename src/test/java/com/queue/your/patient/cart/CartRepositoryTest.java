@@ -29,6 +29,9 @@ public class CartRepositoryTest extends IntegrationTest {
         final Cart cart2 = new Cart("2",  mockedDieteticSet);
         cartRepository.save(cart1);
         cartRepository.save(cart2);
-        assertThat(cartRepository.findAll().containsAll(Arrays.asList(cart1, cart2)));
+//        assertThat(cartRepository.findAll().containsAll(Arrays.asList(cart1, cart2)));
+        final Iterable<Cart> all = cartRepository.findAll();
+        assertThat(all).hasSize(2);
+        assertThat(cart1).isEqualTo(all.iterator().next());
     }
 }

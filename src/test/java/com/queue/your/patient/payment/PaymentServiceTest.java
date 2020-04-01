@@ -1,9 +1,5 @@
-package com.queue.your.patient.cart.payment;
+package com.queue.your.patient.payment;
 
-import com.queue.your.patient.payment.Payment;
-import com.queue.your.patient.payment.PaymentRegisteredEvent;
-import com.queue.your.patient.payment.PaymentRepository;
-import com.queue.your.patient.payment.PaymentService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;

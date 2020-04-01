@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.expression.spel.ast.OpOr;
 
+import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -18,14 +19,22 @@ import static lombok.AccessLevel.PRIVATE;
 @NoArgsConstructor(access = PRIVATE)
 @AllArgsConstructor
 @EqualsAndHashCode
+@Entity
+@Table(name = "orders")
 public class Order {
     private static final Logger LOGGER = LoggerFactory.getLogger(Order.class);
 
+    @Id
     private String id;
+
+    @Column(name = "order_on", updatable = false)
     private LocalDateTime orderedOn;
+
     private boolean accepted;
     private boolean paid;
 
+    @ElementCollection
+    @CollectionTable(name = "orderitems", joinColumns = @JoinColumn(name = "order_id"))
     private List<OrderItem> items = new ArrayList<>();
 
     public Order(String clientId, LocalDateTime orderedOn) {

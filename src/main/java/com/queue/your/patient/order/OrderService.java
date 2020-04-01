@@ -5,9 +5,11 @@ import com.queue.your.patient.order.discount.DiscountPolicy;
 import lombok.RequiredArgsConstructor;
 import org.mockito.internal.matchers.Or;
 
+import javax.transaction.Transactional;
 import java.time.LocalDateTime;
 
 @RequiredArgsConstructor
+@Transactional
 public class OrderService {
     private final OrderRepository orderRepository;
     private final DiscountPolicy discountPolicy;

@@ -6,8 +6,11 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.annotation.Scope;
 import org.springframework.web.context.WebApplicationContext;
 
+import javax.transaction.Transactional;
+
 @RequiredArgsConstructor
-@Scope(value = WebApplicationContext.SCOPE_SESSION)
+//@Scope(value = WebApplicationContext.SCOPE_SESSION)
+@Transactional
 public class CartService {
     private final CustomerCart customerCart;
     private final CartRepository cartRepository;

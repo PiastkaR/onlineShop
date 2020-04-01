@@ -6,7 +6,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.event.EventListener;
 
+import javax.transaction.Transactional;
+
 @RequiredArgsConstructor
+@Transactional
 public class OrderPaidListener {
     private static final Logger LOGGER = LoggerFactory.getLogger(OrderPaidListener.class);
     private final OrderRepository orderRepository;

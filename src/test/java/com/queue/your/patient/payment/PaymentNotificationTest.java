@@ -1,8 +1,7 @@
-package com.queue.your.patient.cart.payment;
+package com.queue.your.patient.payment;
 
 import com.queue.your.patient.IntegrationTest;
 import com.queue.your.patient.order.OrderRepository;
-import com.queue.your.patient.payment.PaymentNotificatior;
 import org.awaitility.Duration;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +22,6 @@ public class PaymentNotificationTest extends IntegrationTest {
     public void shouldSendNotification() throws Exception {
         //TODO test not working properly
         await().atMost(Duration.TWO_SECONDS)
-                .untilAsserted(() -> verify(orderRepository, times(2)).findOlderThan(any()));
+                .untilAsserted(() -> verify(orderRepository, times(2)).findPaidFalseAndOrdered(any()));
     }
 }

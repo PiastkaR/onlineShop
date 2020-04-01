@@ -8,7 +8,10 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.event.EventListener;
 
+import javax.transaction.Transactional;
+
 @RequiredArgsConstructor
+@Transactional
 public class OrderCreationEventListener {
     public static final Logger LOGGER = LoggerFactory.getLogger(OrderCreationEventListener.class);
     private final OrderService orderService;
