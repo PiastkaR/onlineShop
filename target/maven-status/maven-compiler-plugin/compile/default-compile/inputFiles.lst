@@ -7,6 +7,7 @@ C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\aop\
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\OfferRepresentation.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\infrastructure\Profiles.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\infrastructure\quartz\QuartzProperties.java
+C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\OfferResource.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\OfferService.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\aop\LoggingAspect.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\cart\CustomerCart.java
@@ -20,6 +21,7 @@ C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\paym
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\order\OrderService.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\payment\InvoiceGeneratorListener.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\cart\CartConfiguration.java
+C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\infrastructure\PagedResource.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\order\OrderRepository.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\cart\CartService.java
 C:\Users\piast\IdeaProjects\onlineShop\src\main\java\com\queue\your\patient\offer\Offer.java

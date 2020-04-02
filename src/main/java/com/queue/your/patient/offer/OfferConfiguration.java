@@ -11,10 +11,10 @@ import java.util.Optional;
 @Configuration
 public class OfferConfiguration {
 
-    @Bean
-    public OfferRepository offerRepository() {
-        return new InMemoryTemplateOfferRepository();
-    }
+//    @Bean
+//    public OfferRepository offerRepository() {
+//        return new InMemoryTemplateOfferRepository();
+//    }
 
     @Bean
     public AvailabilityOffersFilter webOffersFilter(@Value("5000") int maxCaloriesNeed) {
@@ -22,8 +22,8 @@ public class OfferConfiguration {
     }
 
     @Bean
-    public OfferService offerService(AvailabilityOffersFilterFactory filterFactory) {
-        return new OfferService(filterFactory, offerRepository());
+    public OfferService offerService(/*AvailabilityOffersFilterFactory filterFactory*/ OfferRepository offerRepository) {
+        return new OfferService(/*filterFactory,*/ offerRepository);
     }
 
     @Bean
@@ -32,4 +32,13 @@ public class OfferConfiguration {
 
     }
 
+    @Bean
+    OfferToRepresentationConverter offerToRepresentationConverter() {
+        return new OfferToRepresentationConverter();
+    }
+
+    @Bean
+    RepresentationToOfferConverter representationToOfferConverter() {
+        return new RepresentationToOfferConverter();
+    }
 }

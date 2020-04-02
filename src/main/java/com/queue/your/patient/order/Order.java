@@ -55,4 +55,9 @@ public class Order {
         LOGGER.info("Price after discount: [{}]", price);
         return this;
     }
+
+    public void accept(){
+        accepted = true;
+    }
+
 }

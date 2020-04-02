@@ -6,18 +6,20 @@ import com.queue.your.patient.cart.OrderStoredEvent;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.context.event.EventListener;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.transaction.event.TransactionalEventListener;
 
 import javax.transaction.Transactional;
 
 @RequiredArgsConstructor
 @Transactional
+@Async
 public class OrderCreationEventListener {
     public static final Logger LOGGER = LoggerFactory.getLogger(OrderCreationEventListener.class);
     private final OrderService orderService;
     private final CartService cartService;
 
-    @EventListener
+    @TransactionalEventListener
     public void onOrderStoredEvent(OrderStoredEvent orderStoredEvent) {
         LOGGER.info("Order creation for cart [{}]", orderStoredEvent);
         final Cart cart = cartService.getById(orderStoredEvent.getCartId());

@@ -1,6 +1,7 @@
 package com.queue.your.patient.offer;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.data.domain.Pageable;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 
@@ -22,7 +23,7 @@ public class JdbcTemplateOfferRepository implements OfferRepository {
     }
 
     @Override
-    public List<Offer> findAll() {
+    public List<Offer> findAll(Pageable pageable) {
         return jdbcTemplate.query("select id, calories_needed, variant from offers", OFFER_ROW_MAPPER);
     }
 

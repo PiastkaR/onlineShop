@@ -4,7 +4,6 @@ com\queue\your\patient\cart\CartResource$IdReference.class
 com\queue\your\patient\infrastructure\MailSender.class
 com\queue\your\patient\order\Order.class
 com\queue\your\patient\payment\InMemoryPaymentRepository.class
-com\queue\your\patient\offer\InMemoryTemplateOfferRepository.class
 com\queue\your\patient\order\OrderCreationEventListener.class
 com\queue\your\patient\cart\CartRepository.class
 com\queue\your\patient\infrastructure\quartz\QuartzProperties.class
@@ -27,6 +26,7 @@ com\queue\your\patient\order\discount\Discounts.class
 com\queue\your\patient\infrastructure\quartz\SchedulingConfiguration.class
 com\queue\your\patient\order\OrderConfiguration.class
 com\queue\your\patient\order\OrderItem.class
+com\queue\your\patient\offer\OfferResource.class
 com\queue\your\patient\aop\LoggingAspect.class
 com\queue\your\patient\offer\OfferConfiguration.class
 com\queue\your\patient\offer\AvailabilityOffersFilter.class
@@ -36,6 +36,7 @@ com\queue\your\patient\order\discount\DiscountConfiguration.class
 com\queue\your\patient\payment\PaymentConfiguration.class
 com\queue\your\patient\cart\Cart.class
 com\queue\your\patient\cart\DieteticSet.class
+com\queue\your\patient\infrastructure\PagedResource.class
 com\queue\your\patient\infrastructure\Profiles.class
 com\queue\your\patient\offer\RepresentationToOfferConverter.class
 com\queue\your\patient\order\discount\DeliveryDiscount.class
@@ -45,6 +46,7 @@ com\queue\your\patient\offer\OfferService.class
 com\queue\your\patient\order\OrderService.class
 com\queue\your\patient\cart\CartConfiguration.class
 com\queue\your\patient\order\OrderRepository.class
+com\queue\your\patient\offer\OfferResource$IdReference.class
 com\queue\your\patient\aop\Timed.class
 com\queue\your\patient\offer\JdbcTemplateOfferRepository$OfferRowMapper.class
 com\queue\your\patient\cart\CartResource.class
