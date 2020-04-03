@@ -4,7 +4,6 @@ import com.queue.your.patient.order.discount.DiscountPolicy;
 import lombok.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.expression.spel.ast.OpOr;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
@@ -12,6 +11,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+import static java.lang.String.format;
 import static lombok.AccessLevel.PRIVATE;
 
 @Getter
@@ -56,7 +56,10 @@ public class Order {
         return this;
     }
 
-    public void accept(){
+    public void accept() {
+        if (accepted) {
+            throw new AlreadyAcceptedException(format("Order already accepted", id));
+        }
         accepted = true;
     }
 

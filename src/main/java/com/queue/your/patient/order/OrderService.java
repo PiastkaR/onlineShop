@@ -3,7 +3,6 @@ package com.queue.your.patient.order;
 import com.queue.your.patient.cart.Cart;
 import com.queue.your.patient.order.discount.DiscountPolicy;
 import lombok.RequiredArgsConstructor;
-import org.mockito.internal.matchers.Or;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

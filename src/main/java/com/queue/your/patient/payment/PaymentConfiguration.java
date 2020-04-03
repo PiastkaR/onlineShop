@@ -11,6 +11,8 @@ import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import static org.quartz.CronScheduleBuilder.cronSchedule;
+
 @Configuration
 public class PaymentConfiguration {
 
@@ -49,7 +51,7 @@ public class PaymentConfiguration {
         return TriggerBuilder.newTrigger()
                 .forJob(paymentNotificationJobDetail())
                 .withIdentity("Payment_Notification_Trigger")
-               /* .withSchedule(cronSchedule(cronePattern))*/
+                .withSchedule(cronSchedule(cronePattern))
                 .build();
     }
 }

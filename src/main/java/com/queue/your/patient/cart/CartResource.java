@@ -32,7 +32,7 @@ public class CartResource {
         return ResponseEntity.ok(new IdReference(cart.getId()));
     }
 
-    // warto dodawac na poczatku private final MandatoryKeyRequestValidator validato = new MKV(
+    // warto dodawac na poczatku private final MandatoryKeyRequestValidator validation = new MKV(
     // required("sss"),
     //required("name"));
 

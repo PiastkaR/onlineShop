@@ -3,7 +3,6 @@ package com.queue.your.patient.order;
 import com.queue.your.patient.cart.CartService;
 import com.queue.your.patient.infrastructure.MailSender;
 import com.queue.your.patient.order.discount.DiscountPolicy;
-import org.mockito.internal.matchers.Or;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

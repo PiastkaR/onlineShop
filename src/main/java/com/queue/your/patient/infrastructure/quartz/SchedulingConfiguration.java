@@ -7,14 +7,11 @@ import org.springframework.beans.factory.ObjectProvider;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.PropertySources;
 import org.springframework.scheduling.annotation.EnableScheduling;
 import org.springframework.scheduling.quartz.SchedulerFactoryBean;
+import org.quartz.Calendar;
 
-import java.util.Calendar;
-import java.util.Map;
-import java.util.Optional;
-import java.util.Properties;
+import java.util.*;
 
 import static java.util.Optional.ofNullable;
 
@@ -47,7 +44,7 @@ public class SchedulingConfiguration {
         schedulerFactoryBean.setJobFactory(autowireCapableBeanJobFactory());
         schedulerFactoryBean.setQuartzProperties(asProperties(quartzProperties.getProperties()));
         jobDetail.ifPresent(schedulerFactoryBean::setJobDetails);
-//        calendars.ifPresent(schedulerFactoryBean::setCalendars);
+        calendars.ifPresent(schedulerFactoryBean::setCalendars);
         triggers.ifPresent(schedulerFactoryBean::setTriggers);
         return schedulerFactoryBean;
     }

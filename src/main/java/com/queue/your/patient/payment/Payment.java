@@ -10,6 +10,7 @@ import static lombok.AccessLevel.PRIVATE;
 @ToString
 @AllArgsConstructor
 @NoArgsConstructor(access = PRIVATE)
+@EqualsAndHashCode
 public class Payment {
     private String id;
     private LocalDateTime when;

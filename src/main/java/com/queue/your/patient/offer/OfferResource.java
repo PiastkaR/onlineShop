@@ -2,7 +2,7 @@ package com.queue.your.patient.offer;
 
 import lombok.RequiredArgsConstructor;
 import lombok.Value;
-import net.minidev.asm.ex.ConvertException;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.convert.ConversionService;
@@ -68,9 +68,4 @@ public class OfferResource {
         return new ResponseEntity<>(e.getMessage(), HttpStatus.CONFLICT);
     }
 
-    @ExceptionHandler
-    public ResponseEntity<String> handleConvertException(final ConvertException e) {
-        LOGGER.error("Unexpected ConvertException exception! ", e);
-        return new ResponseEntity<>(e.getMessage(), HttpStatus.CONFLICT);
-    }
 }
