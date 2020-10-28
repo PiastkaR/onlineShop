@@ -1,39 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="66c42c04-22d9-40c9-ab48-ab03c678df23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/aop/ExceptionHandlingAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/aop/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/PaymentResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/offer/OfferResourceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/xmlTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/onlineShop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/onlineShop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38c6ae8c1422e871b0b3e7afd6f169717603a5fa" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/38c6ae8c1422e871b0b3e7afd6f169717603a5fa" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66c95eeeffb674870426dd0b01da9eb079a6de0b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66c95eeeffb674870426dd0b01da9eb079a6de0b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e8706d0e3276c7318a498fa2384561505eeda2c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e8706d0e3276c7318a498fa2384561505eeda2c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83c161f9fe1bfb4bc1385553b15302d4c4d70972" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83c161f9fe1bfb4bc1385553b15302d4c4d70972" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7ee8344d76bb85bbb862aed3ea47d4160998bfd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7ee8344d76bb85bbb862aed3ea47d4160998bfd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/aop/LoggingAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/aop/LoggingAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CartResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/infrastructure/quartz/SchedulingConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/infrastructure/quartz/SchedulingConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/JdbcTemplateOfferRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/JdbcTemplateOfferRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/Offer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/Offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/OfferRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/OfferRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/OfferResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/offer/OfferResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/ManagerNotificator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/ManagerNotificator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/PaymentConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/PaymentConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicaiton.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/offer/OfferServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/offer/OfferServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/payment/PaymentNotificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/payment/PaymentNotificationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/queue/your/patient/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/queue/your/patient/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/queue/your/patient/offer/Offer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/queue/your/patient/offer/Offer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/queue/your/patient/offer/OfferRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/queue/your/patient/offer/OfferRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/queue/your/patient/offer/OfferService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/queue/your/patient/offer/OfferService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CustomerCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/cart/CustomerCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderPaidListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/order/OrderPaidListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/InvoiceGeneratorListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/queue/your/patient/payment/InvoiceGeneratorListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/order/ManagerNotificatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/queue/your/patient/order/ManagerNotificatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,10 +38,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1Z2BE3jRWERushUVgr4ZzO1lCC6" />
@@ -66,11 +50,11 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -85,7 +69,7 @@
       <recent name="C:\Users\piast\IdeaProjects\onlineShop" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoggingAspectTest">
+  <component name="RunManager" selected="JUnit.CartRepositoryTest.shouldFindAllCarts">
     <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_241\jre" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -101,6 +85,22 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.queue.your.patient.Application" />
       <module name="onlineShop" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CartRepositoryTest.shouldFindAllCarts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="onlineShop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.queue.your.patient.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.queue.your.patient.cart" />
+      <option name="MAIN_CLASS_NAME" value="com.queue.your.patient.cart.CartRepositoryTest" />
+      <option name="METHOD_NAME" value="shouldFindAllCarts" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,39 +165,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="onlineShop" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.queue.your.patient.payment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.queue.your.patient.payment" />
-      <option name="MAIN_CLASS_NAME" value="com.queue.your.patient.payment.PaymentServiceTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Application" />
-      <item itemvalue="JUnit.PaymentServiceTest" />
-      <item itemvalue="JUnit.PaymentNotificationTest" />
+      <item itemvalue="JUnit.CartRepositoryTest.shouldFindAllCarts" />
       <item itemvalue="JUnit.InvoiceGenerationListenerTest" />
-      <item itemvalue="JUnit.OfferResourceTest" />
       <item itemvalue="JUnit.LoggingAspectTest" />
+      <item itemvalue="JUnit.OfferResourceTest" />
+      <item itemvalue="JUnit.PaymentNotificationTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CartRepositoryTest.shouldFindAllCarts" />
         <item itemvalue="JUnit.LoggingAspectTest" />
         <item itemvalue="JUnit.OfferResourceTest" />
         <item itemvalue="JUnit.InvoiceGenerationListenerTest" />
         <item itemvalue="JUnit.PaymentNotificationTest" />
-        <item itemvalue="JUnit.PaymentServiceTest" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -212,102 +198,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="71" key="#Project_Structure" timestamp="1584027224381">
+    <state x="465" y="108" width="438" height="488" key="FileChooserDialogImpl" timestamp="1599992426216">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="465" y="108" width="438" height="488" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599992426216" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1600017887821">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1600017887821" />
+    <state x="392" y="195" key="com.intellij.ide.util.TipDialog" timestamp="1600013378453">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="392" y="195" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1600013378453" />
+    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1599048979265" />
+    <state x="588" y="298" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599924087802" />
+    <state x="633" y="0" width="653" height="687" key="dock-window-1" timestamp="1599981483780">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="633" y="0" width="653" height="687" key="dock-window-1/0.0.1280.680@0.0.1280.680" timestamp="1599981483780" />
+    <state x="633" y="0" width="653" height="687" key="dock-window-2" timestamp="1599992328780">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="633" y="0" width="653" height="687" key="dock-window-2/0.0.1280.680@0.0.1280.680" timestamp="1599992328780" />
+    <state x="25" y="0" width="610" height="680" key="find.popup" timestamp="1599994056698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="25" y="0" width="610" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1599994056698" />
+    <state x="30" y="26" width="732" height="682" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599051415035" />
+    <state x="91" y="36" key="new project wizard" timestamp="1599992428549">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="91" y="36" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1599992428549" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1599049068939">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="71" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1584027224381" />
-    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1584635304750">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1584635304750" />
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585918645601">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1585918645601" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1585839633147">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585839633147" />
-    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584700446210">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="498" y="196" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1584700446210" />
-    <state x="378" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585750474374">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="378" y="338" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1585750474374" />
-    <state x="566" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1585750475609">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="566" y="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1536.824@0.0.1536.824" timestamp="1585750475609" />
-    <state x="482" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1585584606210">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="482" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1585584606210" />
-    <state x="524" y="115" width="926" height="526" key="#xdebugger.evaluate" timestamp="1585234863927">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="524" y="115" width="926" height="526" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1585234863927" />
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1585750633573">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1585750633573" />
-    <state width="1493" height="182" key="GridCell.Tab.0.bottom" timestamp="1585922312643">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="182" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585922312643" />
-    <state width="1493" height="182" key="GridCell.Tab.0.center" timestamp="1585922312642">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="182" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585922312642" />
-    <state width="1493" height="182" key="GridCell.Tab.0.left" timestamp="1585922312642">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="182" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585922312642" />
-    <state width="1493" height="182" key="GridCell.Tab.0.right" timestamp="1585922312643">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585922312643" />
-    <state width="1493" height="310" key="GridCell.Tab.1.bottom" timestamp="1585245488390">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="310" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585245488390" />
-    <state width="1493" height="310" key="GridCell.Tab.1.center" timestamp="1585245488390">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="310" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585245488390" />
-    <state width="1493" height="310" key="GridCell.Tab.1.left" timestamp="1585245488390">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="310" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585245488390" />
-    <state width="1493" height="310" key="GridCell.Tab.1.right" timestamp="1585245488390">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="310" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585245488390" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1584476397971">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584476397971" />
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1585893959393">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="470" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585893959393" />
-    <state x="262" y="22" width="1014" height="686" key="find.popup" timestamp="1585922375466">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="262" y="22" width="1014" height="686" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585922375466" />
-    <state x="511" y="42" key="refactoring.ChangeSignatureDialog" timestamp="1585832116000">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="511" y="42" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1585832116000" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1585830548057">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585830548057" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585918840634">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585918840634" />
+    <state x="430" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1599049068939" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

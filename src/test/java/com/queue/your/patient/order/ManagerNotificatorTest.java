@@ -30,7 +30,7 @@ public class ManagerNotificatorTest extends IntegrationTest {
     @Test
     public void shouldHandleStoreEvent() throws Exception {
         eventPublisher.publishEvent(new OrderStoredEvent("cart-id"));
-
+//TODO use AsyncConfigurerSupport?
         verify(mailSender).send(any(),any());
     }
 }

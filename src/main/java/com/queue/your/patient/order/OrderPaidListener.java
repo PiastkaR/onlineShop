@@ -10,13 +10,13 @@ import javax.transaction.Transactional;
 
 @RequiredArgsConstructor
 @Transactional
-public class OrderPaidListener {
+public class  OrderPaidListener {
     private static final Logger LOGGER = LoggerFactory.getLogger(OrderPaidListener.class);
     private final OrderRepository orderRepository;
 
     @EventListener
     public void onPaymentRegisteredEvent(PaymentRegisteredEvent event){
-        LOGGER.info("Registered payment based on eent [{}]", event);
+        LOGGER.info("Registered payment based on event [{}]", event);
         orderRepository.findByCartId(event.getId()).paid();
     }
 }

@@ -14,7 +14,7 @@ public class InvoiceGeneratorListener {
     private static final Logger LOGGER = LoggerFactory.getLogger(InvoiceGeneratorListener.class);
 
     @EventListener
-    public void onPaymentRegisteredEvent(PaymentRegisteredEvent event){
+    public void onPaymentRegisteredEvent(PaymentRegisteredEvent event) {
         LOGGER.info("Generate an invoice for payment [{}] ", event.getId());
         mailSender.send("exampleMail@mail.com", format(event.getId()) + "Your Invoice, Regards");
     }
