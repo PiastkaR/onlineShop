@@ -1,9 +1,8 @@
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
-
+HELP.md
+target/
 ### Intellij ###
 *.iml
 *.ipr

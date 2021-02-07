@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66c42c04-22d9-40c9-ab48-ab03c678df23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59852acd86193b81c1a1a9ad7732eb3022a522f8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/9/59852acd86193b81c1a1a9ad7732eb3022a522f8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e8706d0e3276c7318a498fa2384561505eeda2c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7e8706d0e3276c7318a498fa2384561505eeda2c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83c161f9fe1bfb4bc1385553b15302d4c4d70972" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83c161f9fe1bfb4bc1385553b15302d4c4d70972" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7ee8344d76bb85bbb862aed3ea47d4160998bfd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7ee8344d76bb85bbb862aed3ea47d4160998bfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="66c42c04-22d9-40c9-ab48-ab03c678df23" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -187,9 +182,29 @@
       <option name="presentableId" value="Default" />
       <updated>1584027193704</updated>
     </task>
+    <task id="LOCAL-00001" summary="gitignore">
+      <created>1612694941636</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612694941636</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="386" y="0" width="986" height="745" key="CommitChangelistDialog2" timestamp="1612694940533">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="386" y="0" width="986" height="745" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1612694940533" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1612694942854">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1612694942854" />
     <state x="30" y="26" width="732" height="682" key="find.popup" timestamp="1612536575069">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
